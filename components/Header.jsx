@@ -11,7 +11,9 @@ export default function Header() {
             </Head>
 
             <div className={headerSheet.container}>
-                <h1 className={headerSheet.titleLeft}>broom</h1>
+                <div className={headerSheet.titleLeft}>
+                    <h1 className={headerSheet.title}>broom</h1>
+                </div>
                 <div className={headerSheet.titleRight}>
                     <h3>Ja</h3> 
                     <h3>En</h3> 
