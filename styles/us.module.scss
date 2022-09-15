@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    padding: 20% 15%;
+    flex-direction: row;
+    .item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        .itemText{
+            display: flex;
+            flex-direction: column;
+            padding: 0 5%;
+            align-items: flex-start;
+            justify-content: space-evenly;
+        }
+        .text{
+            text-align: left;
+            line-height: 2.0;
+        }
+        .textExplanation{
+            text-align: left;
+            font-size: 75%;
+            line-height: 2.0;
+        }
+        .img{
+            width:50%
+        }
+    }
+}
