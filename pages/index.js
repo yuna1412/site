@@ -22,7 +22,7 @@ export default function index() {
       <Us/>
       <News/>
       <Projects/>
-      <p>©broom inc.all rights reserved.</p>
+      <p className={indexSheet.text}>©broom inc.all rights reserved.</p>
     </>
   )
 }
