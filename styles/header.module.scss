@@ -1,0 +1,22 @@
+.container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .titleLeft{
+        display: flex;
+        padding-left: 3%;
+        justify-self: start;
+        align-items: center;
+    }
+    .titleRight{
+        display: flex;
+        padding-right: 3%;
+        justify-self: end;
+        align-items: center;
+        text-align: justify;
+    }
+}

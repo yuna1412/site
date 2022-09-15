@@ -1,0 +1,13 @@
+.container{
+    position: relative;
+    .img{
+        display: block;
+        width: 100%;
+    }
+    .text{
+        padding: 2% 3%;
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+    }
+}
