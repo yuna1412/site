@@ -21,7 +21,7 @@ export default function Projects() {
                 <img className={projectsSheet.img} src="/image/p_pjb_a.jpg"/>
             </div>
             <div className={projectsSheet.end}>
-                <a href=''>See work archive</a>
+                <a href='' className={projectsSheet.Url}>See work archive</a>
             </div>
         </>
     );

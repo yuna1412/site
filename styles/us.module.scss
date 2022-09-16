@@ -1,27 +1,35 @@
 .container{
     display: flex;
-    padding: 0 15% 15% 15%;
+    padding: 0 20% 8% 20%;
     flex-direction: row;
     .item{
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items:flex-start;
         text-align: center;
+        padding: 7% 0 0 0 ;
+        border-top: 1px solid gainsboro;
         .itemText{
             display: flex;
             flex-direction: column;
-            padding: 0 5%;
+            padding: 0 5% 0 0;
             align-items: flex-start;
             justify-content: space-evenly;
         }
         .text{
             text-align: left;
             line-height: 2.0;
+            text-decoration:none; 
+            color: black;
         }
         .textExplanation{
             text-align: left;
             font-size: 75%;
             line-height: 2.0;
+        }
+        .textUrl{
+            text-decoration-line: none; 
+            color: black;
         }
         .img{
             width:50%

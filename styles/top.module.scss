@@ -17,6 +17,10 @@
         position: absolute;
         bottom: 13%;
         text-align: left;
-        line-height: 2.0;
+        line-height: 2.0; 
+        .textUrl{
+            text-decoration-line:none;
+            color: black;
+        }
     }
 }

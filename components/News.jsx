@@ -17,7 +17,7 @@ export default function News() {
                     <div className={newsSheet.itemText}>
                         <p className={newsSheet.text}>2020.12 / Award</p><br/>
                         <p className={newsSheet.text}>DFAアジアデザイン賞2020（香港）にて、broom inc.でクリエイティブ全般を手掛けた「12/JU-NI」がコミュニケーションデザイン部門からBronze Award、「Parcel」がインダストリアルデザイン部門からMerit Awardを、それぞれ受賞しました。</p>
-                        <a href='' className={newsSheet.text}>DFA AWARDS</a>
+                        <a href='' className={newsSheet.textUrl}>DFA AWARDS</a>
                     </div>
                 </div>
                 <div className={newsSheet.item}>
@@ -25,7 +25,7 @@ export default function News() {
                     <div className={newsSheet.itemText}>
                         <p className={newsSheet.text}>2020.07 / Launch</p><br/>
                         <p className={newsSheet.text}>訪日外国人の防災をサポートするプロジェクトを立ち上げました。（運営・プロジェクトオーナー : 株式会社ヒロモリ Fun to BOSAI Unit / 事業開発支援・クリエイティブディレクション : broom inc. ）</p>
-                        <a href='' className={newsSheet.text}>BOSAI UNISON PROJECT</a>
+                        <a href='' className={newsSheet.textUrl}>BOSAI UNISON PROJECT</a>
                     </div>
                 </div>
             </div>

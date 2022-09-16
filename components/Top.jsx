@@ -13,11 +13,11 @@ export default function Top() {
             <div className={topSheet.container}>
                 <img className={topSheet.img} src="/image/cover_14.jpg"/>
                 <div className={topSheet.textScroll}>
-                    <p>Scroll Down ---</p>
+                    <p className={topSheet.textP}>Scroll Down ---</p>
                 </div>
                 <div className={topSheet.text}>
                     <p>Products,brands,and experiences.</p>
-                    <a href=''>→See work archive</a>
+                    <a href='' className={topSheet.textUrl}>→See work archive</a>
                 </div>
             </div>
         </>
