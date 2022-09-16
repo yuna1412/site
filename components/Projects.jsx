@@ -15,10 +15,30 @@ export default function Projects() {
                 <h3>Featured projects</h3>
             </div>
             <div className={projectsSheet.allImage}>
-                <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
-                <img className={projectsSheet.img} src="/image/p_h-stool_a.jpg"/>
-                <img className={projectsSheet.img} src="/image/p_parcel_a.gif"/>
-                <img className={projectsSheet.img} src="/image/p_pjb_a.jpg"/>
+                <div className={projectsSheet.move}>
+                    <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
+                    <div className={projectsSheet.mask}>
+                        <p className={projectsSheet.text}>"12/JU-NI"<br/>Kimura Soap<br/>Haircare brand,2019-</p>
+                    </div>
+                </div>
+                <div className={projectsSheet.move}>
+                    <img className={projectsSheet.img} src="/image/p_h-stool_a.jpg"/>
+                    <div className={projectsSheet.mask}>
+                        <p className={projectsSheet.text}>"12/JU-NI"<br/>Kimura Soap<br/>Haircare brand,2019-</p>
+                    </div>
+                </div>
+                <div className={projectsSheet.move}>
+                    <img className={projectsSheet.img} src="/image/p_parcel_a.gif"/>
+                    <div className={projectsSheet.mask}>
+                        <p className={projectsSheet.text}>"12/JU-NI"<br/>Kimura Soap<br/>Haircare brand,2019-</p>
+                    </div>
+                </div>
+                <div className={projectsSheet.move}>
+                    <img className={projectsSheet.img} src="/image/p_pjb_a.jpg"/>
+                    <div className={projectsSheet.mask}>
+                        <p className={projectsSheet.text}>"12/JU-NI"<br/>Kimura Soap<br/>Haircare brand,2019-</p>
+                    </div>
+                </div>
             </div>
             <div className={projectsSheet.end}>
                 <a href='' className={projectsSheet.Url}>See work archive</a>

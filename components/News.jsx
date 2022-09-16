@@ -16,16 +16,14 @@ export default function News() {
                     <img className={newsSheet.img} src="/image/j_012.jpg"/>
                     <div className={newsSheet.itemText}>
                         <p className={newsSheet.text}>2020.12 / Award</p><br/>
-                        <p className={newsSheet.text}>DFAアジアデザイン賞2020（香港）にて、broom inc.でクリエイティブ全般を手掛けた「12/JU-NI」がコミュニケーションデザイン部門からBronze Award、「Parcel」がインダストリアルデザイン部門からMerit Awardを、それぞれ受賞しました。</p>
-                        <a href='' className={newsSheet.textUrl}>DFA AWARDS</a>
+                        <p className={newsSheet.text}>DFAアジアデザイン賞2020（香港）にて、broom inc.でクリエイティブ全般を手掛けた「12/JU-NI」がコミュニケーションデザイン部門からBronze Award、「Parcel」がインダストリアルデザイン部門からMerit Awardを、それぞれ受賞しました。<a href='/' className={newsSheet.textUrl}>DFA AWARDS</a></p>
                     </div>
                 </div>
                 <div className={newsSheet.item}>
                     <img className={newsSheet.img} src="/image/j_010.jpg"/>
                     <div className={newsSheet.itemText}>
                         <p className={newsSheet.text}>2020.07 / Launch</p><br/>
-                        <p className={newsSheet.text}>訪日外国人の防災をサポートするプロジェクトを立ち上げました。（運営・プロジェクトオーナー : 株式会社ヒロモリ Fun to BOSAI Unit / 事業開発支援・クリエイティブディレクション : broom inc. ）</p>
-                        <a href='' className={newsSheet.textUrl}>BOSAI UNISON PROJECT</a>
+                        <p className={newsSheet.text}>訪日外国人の防災をサポートするプロジェクトを立ち上げました。（運営・プロジェクトオーナー : 株式会社ヒロモリ Fun to BOSAI Unit / 事業開発支援・クリエイティブディレクション : broom inc. ）<a href='/' className={newsSheet.textUrl}>BOSAI UNISON PROJECT</a></p>
                     </div>
                 </div>
             </div>

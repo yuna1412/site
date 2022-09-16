@@ -17,7 +17,7 @@ export default function Top() {
                 </div>
                 <div className={topSheet.text}>
                     <p>Products,brands,and experiences.</p>
-                    <a href='' className={topSheet.textUrl}>→See work archive</a>
+                    <a href='/' className={topSheet.textUrl}>→See work archive</a>
                 </div>
             </div>
         </>
