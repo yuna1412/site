@@ -7,6 +7,7 @@ import Icons from '../components/Icons'
 import Us from '../components/Us'
 import News from '../components/News'
 import Projects from '../components/Projects'
+import Footer from '../components/Footer'
 
 export default function index() {
   return (
@@ -23,6 +24,7 @@ export default function index() {
       <News/>
       <Projects/>
       <p className={indexSheet.text}>©broom inc.all rights reserved.</p>
+      <Footer/>
     </>
   )
 }
