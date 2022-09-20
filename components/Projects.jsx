@@ -14,6 +14,33 @@ export default function Projects() {
             <div className={projectsSheet.title}>
                 <h3>Featured projects</h3>
             </div>
+            {/* <ul className={projectsSheet.allImage}>
+                <li className={projectsSheet.move}>
+                    <a href='/' >
+                        <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
+                        <p className={projectsSheet.text}>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</p>
+                    </a>
+                </li>
+                <li className={projectsSheet.move}>
+                    <a href='/' >
+                        <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
+                        <p className={projectsSheet.text}>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</p>
+                    </a>
+                </li>
+                <li className={projectsSheet.move}>
+                    <a href='/' >
+                        <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
+                        <p className={projectsSheet.text}>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</p>
+                    </a>
+                </li>
+                <li className={projectsSheet.move}>
+                    <a href='/' >
+                        <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
+                        <p className={projectsSheet.text}>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</p>
+                    </a>
+                </li>
+            </ul> */}
+
             <div className={projectsSheet.allImage}>
                 <a href='/' className={projectsSheet.move}>
                     <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
@@ -33,7 +60,7 @@ export default function Projects() {
                 </a>
             </div>
             <div className={projectsSheet.end}>
-                <a href='' className={projectsSheet.Url}>See work archive</a>
+                <a href='/' className={projectsSheet.Url}>See work archive</a>
             </div>
         </>
     );
