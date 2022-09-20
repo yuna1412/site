@@ -12,7 +12,7 @@
         margin: 5% 5%;
         text-align: center;
     }
-    .arrow:hover{
+    &:hover{
         -webkit-animation-duration: 0.1s;
         -webkit-animation-name: flash;
         animation-duration: 0.1s;

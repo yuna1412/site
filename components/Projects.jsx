@@ -15,30 +15,22 @@ export default function Projects() {
                 <h3>Featured projects</h3>
             </div>
             <div className={projectsSheet.allImage}>
-                <div className={projectsSheet.move}>
+                <a href='/' className={projectsSheet.move}>
                     <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
-                    <div className={projectsSheet.mask}>
-                        <p className={projectsSheet.text}>"12/JU-NI"<br/>Kimura Soap<br/>Haircare brand,2019-</p>
-                    </div>
-                </div>
-                <div className={projectsSheet.move}>
+                    <p className={projectsSheet.text}>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</p>
+                </a>
+                <a href='/' className={projectsSheet.move}>
                     <img className={projectsSheet.img} src="/image/p_h-stool_a.jpg"/>
-                    <div className={projectsSheet.mask}>
-                        <p className={projectsSheet.text}>"12/JU-NI"<br/>Kimura Soap<br/>Haircare brand,2019-</p>
-                    </div>
-                </div>
-                <div className={projectsSheet.move}>
+                    <p className={projectsSheet.text}>"H Stool"<br/>Hiramiya<br/>Stool,2019</p>
+                </a>
+                <a href='/' className={projectsSheet.move}>
                     <img className={projectsSheet.img} src="/image/p_parcel_a.gif"/>
-                    <div className={projectsSheet.mask}>
-                        <p className={projectsSheet.text}>"12/JU-NI"<br/>Kimura Soap<br/>Haircare brand,2019-</p>
-                    </div>
-                </div>
-                <div className={projectsSheet.move}>
+                    <p className={projectsSheet.text}>"Parcel"<br/>Hiramiya<br/>Storage,2019-</p>
+                </a>
+                <a href='/' className={projectsSheet.move}>
                     <img className={projectsSheet.img} src="/image/p_pjb_a.jpg"/>
-                    <div className={projectsSheet.mask}>
-                        <p className={projectsSheet.text}>"12/JU-NI"<br/>Kimura Soap<br/>Haircare brand,2019-</p>
-                    </div>
-                </div>
+                    <p className={projectsSheet.text}>Paper Joint Basket<br/>Own Products<br/>Basket, 2018</p>
+                </a>
             </div>
             <div className={projectsSheet.end}>
                 <a href='' className={projectsSheet.Url}>See work archive</a>

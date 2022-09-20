@@ -14,52 +14,52 @@
         align-items: center;
         .title{
             width:100%;
-        }
-        .title:hover{
-            -webkit-animation-duration: 0.1s;
-            -webkit-animation-name: flash;
-            animation-duration: 0.1s;
-            animation-name: flash;
+            &:hover{
+                -webkit-animation-duration: 0.1s;
+                -webkit-animation-name: flash;
+                animation-duration: 0.1s;
+                animation-name: flash;
+                }
+            @-webkit-keyframes flash {
+                0% {
+                opacity: 1;
+                }
+                100% {
+                opacity: 0;
+                }
             }
-        @-webkit-keyframes flash {
-            0% {
-            opacity: 1;
-            }
-            100% {
-            opacity: 0;
-            }
-        }
-        @keyframes flash {
-            0% {
-            opacity: 1;
-            }
-            100% {
-            opacity: 0;
+            @keyframes flash {
+                0% {
+                opacity: 1;
+                }
+                100% {
+                opacity: 0;
+                }
             }
         }
         .subtitle{
             width: 100%;
-        }
-        .subtitle:hover{
-            -webkit-animation-duration: 0.1s;
-            -webkit-animation-name: flash;
-            animation-duration: 0.1s;
-            animation-name: flash;
+            &:hover{
+                -webkit-animation-duration: 0.1s;
+                -webkit-animation-name: flash;
+                animation-duration: 0.1s;
+                animation-name: flash;
+                }
+            @-webkit-keyframes flash {
+                0% {
+                opacity: 1;
+                }
+                100% {
+                opacity: 0;
+                }
             }
-        @-webkit-keyframes flash {
-            0% {
-            opacity: 1;
-            }
-            100% {
-            opacity: 0;
-            }
-        }
-        @keyframes flash {
-            0% {
-            opacity: 1;
-            }
-            100% {
-            opacity: 0;
+            @keyframes flash {
+                0% {
+                opacity: 1;
+                }
+                100% {
+                opacity: 0;
+                }
             }
         }
     }
