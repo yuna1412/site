@@ -37,8 +37,17 @@
                 }
             }
         }
+    }
+    .titleRight{
+        display: flex;
+        padding-right: 3%;
+        justify-self: end;
+        align-items: center;
+        text-align: justify;
         .subtitle{
             width: 100%;
+            text-decoration-line: none;
+            color: black;
             &:hover{
                 -webkit-animation-duration: 0.1s;
                 -webkit-animation-name: flash;
@@ -62,12 +71,8 @@
                 }
             }
         }
-    }
-    .titleRight{
-        display: flex;
-        padding-right: 3%;
-        justify-self: end;
-        align-items: center;
-        text-align: justify;
+        .bar{
+            margin: 500% 0;
+        }
     }
 }

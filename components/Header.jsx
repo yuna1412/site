@@ -15,9 +15,10 @@ export default function Header() {
                     <h1 className={headerSheet.title}>broom</h1>
                 </div>
                 <div className={headerSheet.titleRight}>
-                    <h3 className={headerSheet.subtitle}>Ja</h3> 
-                    <h3 className={headerSheet.subtitle}>En</h3> 
-                    <a href='/'className={headerSheet.subtitle}>三</a>
+                    <a href='/' className={headerSheet.subtitle}>Ja</a> 
+                    <h3> | </h3> 
+                    <a href='/' className={headerSheet.subtitle}>En</a> 
+                    <a href='/' className={headerSheet.subtitle}>三</a>
                 </div>
             </div>
         </>
