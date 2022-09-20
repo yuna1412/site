@@ -11,7 +11,7 @@ export default function Footer() {
             </Head>
 
             <div className={footerSheet.container}>
-                <h1 className={footerSheet.arrow}>↑</h1>
+                <a href='/' className={footerSheet.arrow}/>
             </div>
         </>
     );

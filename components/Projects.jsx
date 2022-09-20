@@ -14,7 +14,7 @@ export default function Projects() {
             <div className={projectsSheet.title}>
                 <h3>Featured projects</h3>
             </div>
-            {/* <ul className={projectsSheet.allImage}>
+            <ul className={projectsSheet.allImage}>
                 <li className={projectsSheet.move}>
                     <a href='/' >
                         <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
@@ -23,42 +23,23 @@ export default function Projects() {
                 </li>
                 <li className={projectsSheet.move}>
                     <a href='/' >
-                        <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
-                        <p className={projectsSheet.text}>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</p>
+                        <img className={projectsSheet.img} src="/image/p_h-stool_a.jpg"/>
+                        <p className={projectsSheet.text}>"H Stool"<br/>Hiramiya<br/>Stool,2019</p>
                     </a>
                 </li>
                 <li className={projectsSheet.move}>
                     <a href='/' >
-                        <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
-                        <p className={projectsSheet.text}>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</p>
+                        <img className={projectsSheet.img} src="/image/p_parcel_a.gif"/>
+                        <p className={projectsSheet.text}>"Parcel"<br/>Hiramiya<br/>Storage,2019-</p>
                     </a>
                 </li>
                 <li className={projectsSheet.move}>
                     <a href='/' >
-                        <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
-                        <p className={projectsSheet.text}>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</p>
+                        <img className={projectsSheet.img} src="/image/p_pjb_a.jpg"/>
+                        <p className={projectsSheet.text}>Paper Joint Basket<br/>Own Products<br/>Basket, 2018</p>
                     </a>
                 </li>
-            </ul> */}
-
-            <div className={projectsSheet.allImage}>
-                <a href='/' className={projectsSheet.move}>
-                    <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
-                    <p className={projectsSheet.text}>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</p>
-                </a>
-                <a href='/' className={projectsSheet.move}>
-                    <img className={projectsSheet.img} src="/image/p_h-stool_a.jpg"/>
-                    <p className={projectsSheet.text}>"H Stool"<br/>Hiramiya<br/>Stool,2019</p>
-                </a>
-                <a href='/' className={projectsSheet.move}>
-                    <img className={projectsSheet.img} src="/image/p_parcel_a.gif"/>
-                    <p className={projectsSheet.text}>"Parcel"<br/>Hiramiya<br/>Storage,2019-</p>
-                </a>
-                <a href='/' className={projectsSheet.move}>
-                    <img className={projectsSheet.img} src="/image/p_pjb_a.jpg"/>
-                    <p className={projectsSheet.text}>Paper Joint Basket<br/>Own Products<br/>Basket, 2018</p>
-                </a>
-            </div>
+            </ul>
             <div className={projectsSheet.end}>
                 <a href='/' className={projectsSheet.Url}>See work archive</a>
             </div>

@@ -11,27 +11,49 @@
     .arrow{
         margin: 5% 5%;
         text-align: center;
-    }
-    &:hover{
-        -webkit-animation-duration: 0.1s;
-        -webkit-animation-name: flash;
-        animation-duration: 0.1s;
-        animation-name: flash;
+        display: inline-block;
+        vertical-align: middle;
+        color: #333;
+        line-height: 1;
+        position: relative;
+        width: 0.1em;
+        height: 1em;
+        background: currentColor;
+        &::before {
+            content: '';
+            width: 0.65em;
+            height: 0.65em;
+            border: 0.1em solid currentColor;
+            border-left: 0;
+            border-bottom: 0;
+            transform: rotate(-45deg);
+            transform-origin: top right;
+            position: absolute;
+            top: -0.05em;
+            right: 50%;
+            box-sizing: border-box;
         }
-    @-webkit-keyframes flash {
-        0% {
-        opacity: 1;
+        &:hover{
+            -webkit-animation-duration: 0.1s;
+            -webkit-animation-name: flash;
+            animation-duration: 0.1s;
+            animation-name: flash;
+            }
+        @-webkit-keyframes flash {
+            0% {
+            opacity: 1;
+            }
+            100% {
+            opacity: 0;
+            }
         }
-        100% {
-        opacity: 0;
-        }
-    }
-    @keyframes flash {
-        0% {
-        opacity: 1;
-        }
-        100% {
-        opacity: 0;
+        @keyframes flash {
+            0% {
+            opacity: 1;
+            }
+            100% {
+            opacity: 0;
+            }
         }
     }
 }
