@@ -15,11 +15,11 @@ export default function Header() {
                     <img className={headerSheet.title} src="/image/broom.svg"/>
                 </div>
                 <ul className={headerSheet.titleRight}>
-                    <li>
+                    <li className={headerSheet.group}>
                         <a href='/' className={`${headerSheet.subtitle} ${headerSheet.select}`}>Ja</a> 
                         <a href='/' className={`${headerSheet.subtitle} ${headerSheet.select}`}>En</a> 
                     </li>
-                    <li>
+                    <li className={headerSheet.group}>
                         <a href='/' className={headerSheet.menu}>
                         <span></span>
                         <span></span>
