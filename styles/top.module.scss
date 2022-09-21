@@ -18,11 +18,12 @@
             &:before{
                 content: '';
                 position: absolute;
-                left: 0;
-                bottom: 0;
-                border-bottom:solid 2px #000 ;
-                // transform: rotate(90deg);
-                animation: border 1s linear forwards infinite;
+                left: calc(50% - 2px);
+                top: 120px;
+                width: 1px;
+                height: 0px;
+                background-color: black;
+                animation: border 1.5s ease-out forwards infinite;
             }
         }
     }
@@ -32,9 +33,11 @@
         bottom: 5%;
         text-align: left;
         line-height: 2.0; 
-        .textUrl{
+        .Url{
             text-decoration-line:none;
             color: black;
+            display: flex;
+            flex-direction: row;
             &:hover{
                 -webkit-animation-duration: 0.1s;
                 -webkit-animation-name: flash;
@@ -58,13 +61,21 @@
                 }
             }
         }
+        .img{
+            width: 6%;
+            height: 15%;
+            padding-top: 1%;
+        }
+        .UrlText{
+            margin-left: 1%;
+        }
     }
 }
 @keyframes border {
     0%{
-        width: 0%;
+        height: 0%;
     }
     100%{
-        width: 100%;
+        height: 100%;
     }
 }

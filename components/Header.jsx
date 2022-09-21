@@ -12,13 +12,21 @@ export default function Header() {
 
             <div className={headerSheet.container}>
                 <div className={headerSheet.titleLeft}>
-                    <h1 className={headerSheet.title}>broom</h1>
+                    <img className={headerSheet.title} src="/image/broom.svg"/>
                 </div>
-                <div className={headerSheet.titleRight}>
-                    <a href='/' className={headerSheet.subtitleJa}>Ja</a> 
-                    <a href='/' className={headerSheet.subtitleEn}>En</a> 
-                    <a href='/' className={headerSheet.menu}>三</a>
-                </div>
+                <ul className={headerSheet.titleRight}>
+                    <li>
+                        <a href='/' className={`${headerSheet.subtitle} ${headerSheet.select}`}>Ja</a> 
+                        <a href='/' className={`${headerSheet.subtitle} ${headerSheet.select}`}>En</a> 
+                    </li>
+                    <li>
+                        <a href='/' className={headerSheet.menu}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </>
     );
