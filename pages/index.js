@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import Top from '../components/Top'
 import Icons from '../components/Icons'
 import Us from '../components/Us'
-import News from '../components/News'
+import Newses from '../components/Newses'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
 
@@ -21,7 +21,7 @@ export default function index() {
       <Top/>
       <Icons/>
       <Us/>
-      <News/>
+      <Newses/>
       <Projects/>
       <p className={indexSheet.text}>©broom inc.all rights reserved.</p>
       <Footer/>
