@@ -18,25 +18,25 @@ export default function Projects() {
                 <li className={projectsSheet.move}>
                     <a href='/' >
                         <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
-                        <p className={projectsSheet.text}>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</p>
+                        <span className={projectsSheet.text}>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</span>
                     </a>
                 </li>
                 <li className={projectsSheet.move}>
                     <a href='/' >
                         <img className={projectsSheet.img} src="/image/p_h-stool_a.jpg"/>
-                        <p className={projectsSheet.text}>"H Stool"<br/>Hiramiya<br/>Stool,2019</p>
+                        <span className={projectsSheet.text}>"H Stool"<br/>Hiramiya<br/>Stool,2019</span>
                     </a>
                 </li>
                 <li className={projectsSheet.move}>
                     <a href='/' >
                         <img className={projectsSheet.img} src="/image/p_parcel_a.gif"/>
-                        <p className={projectsSheet.text}>"Parcel"<br/>Hiramiya<br/>Storage,2019-</p>
+                        <span className={projectsSheet.text}>"Parcel"<br/>Hiramiya<br/>Storage,2019-</span>
                     </a>
                 </li>
                 <li className={projectsSheet.move}>
                     <a href='/' >
                         <img className={projectsSheet.img} src="/image/p_pjb_a.jpg"/>
-                        <p className={projectsSheet.text}>Paper Joint Basket<br/>Own Products<br/>Basket, 2018</p>
+                        <span className={projectsSheet.text}>Paper Joint Basket<br/>Own Products<br/>Basket, 2018</span>
                     </a>
                 </li>
             </ul>
