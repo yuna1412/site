@@ -17,7 +17,7 @@ export default function Header() {
                 <div className={headerSheet.titleRight}>
                     <a href='/' className={headerSheet.subtitleJa}>Ja</a> 
                     <a href='/' className={headerSheet.subtitleEn}>En</a> 
-                    <a href='/' className={headerSheet.subtitle}>三</a>
+                    <a href='/' className={headerSheet.menu}>三</a>
                 </div>
             </div>
         </>

@@ -48,6 +48,17 @@
             width: 100%;
             text-decoration-line: none;
             color: black;
+            margin-right: 0.5px;
+            position: relative;
+            &:after{
+                margin: 0 4px;
+                content: "";
+                width: 1px;
+                height: 100%;
+                background-color: black;
+                position: absolute;
+                left: 100%;
+            }
             &:hover{
                 -webkit-animation-duration: 0.1s;
                 -webkit-animation-name: flash;
@@ -71,10 +82,11 @@
                 }
             }
         }
-        .subtitleJa{
+        .subtitleEn{
             width: 100%;
             text-decoration-line: none;
             color: black;
+            margin-left: 0.5rem;
             &:hover{
                 -webkit-animation-duration: 0.1s;
                 -webkit-animation-name: flash;
@@ -99,7 +111,7 @@
             }
             
         }
-        .subtitleEn{
+        .menu{
             width: 100%;
             text-decoration-line: none;
             color: black;
