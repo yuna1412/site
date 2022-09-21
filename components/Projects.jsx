@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 import projectsSheet from '../styles/projects.module.scss'
+import Project from './Project';
 
 export default function Projects() {
     return (
@@ -15,30 +16,22 @@ export default function Projects() {
                 <h3>Featured projects</h3>
             </div>
             <ul className={projectsSheet.allImage}>
-                <li className={projectsSheet.move}>
-                    <a href='/' >
-                        <img className={projectsSheet.img} src="/image/p_ju-ni_a.jpg"/>
-                        <span className={projectsSheet.text}>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</span>
-                    </a>
-                </li>
-                <li className={projectsSheet.move}>
-                    <a href='/' >
-                        <img className={projectsSheet.img} src="/image/p_h-stool_a.jpg"/>
-                        <span className={projectsSheet.text}>"H Stool"<br/>Hiramiya<br/>Stool,2019</span>
-                    </a>
-                </li>
-                <li className={projectsSheet.move}>
-                    <a href='/' >
-                        <img className={projectsSheet.img} src="/image/p_parcel_a.gif"/>
-                        <span className={projectsSheet.text}>"Parcel"<br/>Hiramiya<br/>Storage,2019-</span>
-                    </a>
-                </li>
-                <li className={projectsSheet.move}>
-                    <a href='/' >
-                        <img className={projectsSheet.img} src="/image/p_pjb_a.jpg"/>
-                        <span className={projectsSheet.text}>Paper Joint Basket<br/>Own Products<br/>Basket, 2018</span>
-                    </a>
-                </li>
+                <Project
+                    imageUrl={"/image/p_ju-ni_a.jpg"}
+                    text={<>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</>}
+                />
+                <Project
+                    imageUrl={"/image/p_h-stool_a.jpg"}
+                    text={<>"H Stool"<br/>Hiramiya<br/>Stool,2019</>}
+                />
+                <Project
+                    imageUrl={"/image/p_parcel_a.gif"}
+                    text={<>"Parcel"<br/>Hiramiya<br/>Storage,2019-</>}
+                />
+                <Project
+                    imageUrl={"/image/p_pjb_a.jpg"}
+                    text={<>Paper Joint Basket<br/>Own Products<br/>Basket, 2018</>}
+                />
             </ul>
             <div className={projectsSheet.end}>
                 <a href='/' className={projectsSheet.Url}>See work archive</a>
