@@ -1,6 +1,10 @@
 .title{
     display: flex;
-    padding: 0 20% 0 20%;
+    padding: 0 20%;
+    @media screen and (max-width: 768px) {
+        display: flex;
+        padding: 5% 5%;
+    }
     .titleText{
         font-size: 100%;
     }
@@ -10,13 +14,23 @@
     flex-direction: row;
     justify-content: center;
     margin: 5% 3%;
+    @media screen and (max-width: 768px) {
+        margin: 5% 0;
+    }
     .move{
         position: relative;
         overflow: hidden;
         margin: 0 0.5%;
+        @media screen and (max-width: 768px) {
+            position: relative;
+            overflow: visible;
+            margin: 0 0.5%;
+        }
         .img{
             width:100%;
-            display: block;
+            @media screen and (max-width: 768px) {
+                width:100%;
+            }
         }
         .text{
             position: absolute;
@@ -40,7 +54,10 @@
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    padding: 0 0 10% 0;
+    padding-bottom: 10%;
+    @media screen and (max-width: 768px) {
+        padding: 6% 0 12% 0;
+    }
     .Url{
         padding: 1%;
         border-bottom: 1px solid rgb(0, 0, 0);

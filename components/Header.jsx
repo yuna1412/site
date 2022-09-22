@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState, useRef, forwardRef, useImperativeHandle}  from 'react'
 import headerSheet from '../styles/header.module.scss'
+import Modal from './Modal'
 
-export default function Header() {
+export default function Header({Open, show}) {
     return (
         <>
             <div className={headerSheet.container}>
@@ -14,7 +15,7 @@ export default function Header() {
                         <a href='/' className={`${headerSheet.subtitle} ${headerSheet.select}`}>En</a> 
                     </li>
                     <li className={headerSheet.group}>
-                        <a href='/' className={headerSheet.menu}>
+                        <a className={`${headerSheet.menu} ${show && headerSheet.move}`} onClick={Open}>
                         <span></span>
                         <span></span>
                         <span></span>

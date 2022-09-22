@@ -1,7 +1,12 @@
 .container{
     display: flex;
-    padding: 0 20% 8% 20%;
     flex-direction: row;
+    padding: 0 20% 8% 20%;
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        padding: 0 5% 8% 5%;
+    }
     .item{
         display: flex;
         flex-direction: row;
@@ -9,12 +14,22 @@
         text-align: center;
         padding: 7% 0 0 0 ;
         border-top: 1px solid gainsboro;
+        @media screen and (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 5% 0;
+        }
         .itemText{
             display: flex;
             flex-direction: column;
-            padding: 0 5% 0 0;
+            padding-right: 5%;
             align-items: flex-start;
             justify-content: space-evenly;
+            @media screen and (max-width: 768px) {
+                padding: 0;
+            }
         }
         .text{
             text-align: left;
@@ -26,10 +41,17 @@
             text-align: left;
             font-size: 75%;
             line-height: 2.0;
+            @media screen and (max-width: 768px) {
+                font-size: 80%;
+            }
         }
         .textUrl{
+            margin-top: 10%;
             text-decoration-line: none; 
             color: black;
+            @media screen and (max-width: 768px) {
+                margin-top: 0;
+            }
             &:hover{
                 -webkit-animation-duration: 0.1s;
                 -webkit-animation-name: flash;
@@ -54,7 +76,12 @@
             }
         }
         .img{
-            width:50%
+            width:50%;
+            @media screen and (max-width: 768px) {
+                width:60%;
+                margin-top: 3%;
+                text-align: center;
+            }
         }
     }
 }
