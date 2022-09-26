@@ -16,8 +16,8 @@
         margin-left: 3%;
         align-items: center;
         .title{
-            width:40%;
-            margin-left: 5%;
+            width:44%;
+            margin: 0 0 3% 5%;
             &:hover{
                 -webkit-animation-duration: 0.1s;
                 -webkit-animation-name: flash;
@@ -47,30 +47,26 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-right: 2%;
+        margin-right: 2.5%;
         .group{
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            width: 100%;
+            width: 60%;
             .subtitle{
-                width: 30%;
                 text-decoration-line: none;
                 color: black;
-                margin-right: 0.5px;
-                margin-left:  15px;
+                margin: 0 10px 15px 10px;
                 position: relative;
                 &:after{
-                    margin: 0 4px;
-                    margin: 0px 7px;
+                    margin: 0px 20px 0 20px;
                     content: "";
                     width: 1px;
                     height: 100%;
-                    height: 85%;
                     background-color: black;
                     position: absolute;
-                    left: 100%;
+                    left: 20%;
                 }
                 &:last-child{
                     &:after{
@@ -110,26 +106,26 @@
                 position: relative;
                 cursor: pointer;
                 width: 70px;
-                height: 50px;
+                height: 60px;
                 border-radius: 5px;
                 & span{
                     display: inline-block;
                     transition: all .4s;
                     position: absolute;
-                    left: 20px;
+                    left: 13px;
                     height: 2px;
                     border-radius: 2px;
                     background-color: black;
-                    width: 35%;
+                    width: 40%;
                 }
                 & span:nth-of-type(1){
-                    top: 15px;
+                    top: 12px;
                 }
                 & span:nth-of-type(2){
-                    top: 23px;
+                    top: 22px;
                 }
                 & span:nth-of-type(3){
-                    top: 31px;
+                    top: 32px;
                 }
                 &.move span:nth-of-type(1) {
                     top: 18px;

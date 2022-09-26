@@ -10,9 +10,9 @@ export default function Top() {
                     <p className={topSheet.border}>Scroll Down</p>
                 </div>
                 <div className={topSheet.text}>
-                    <p>Products,brands,and experiences.</p>
+                    <p  className={topSheet.guidance}>Products, brands, and experiences.</p>
                     <a href='/' className={topSheet.Url}>
-                        <img className={topSheet.img} src="/image/arrow-2.svg"/>
+                        <img className={topSheet.UrlImg} src="/image/arrow-2.svg"/>
                         <span className={topSheet.UrlText}>See work archive</span>
                     </a>
                 </div>

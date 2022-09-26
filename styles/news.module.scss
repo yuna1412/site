@@ -1,6 +1,8 @@
+@import "./_variables";
 .container{
     display: flex;
-    padding: 0 20% 15% 20%;
+    padding: $padding;
+    padding-bottom: 5.5%;
     flex-direction: column;
     @media screen and (max-width: 768px) {
         display: flex;
@@ -8,13 +10,14 @@
         padding: 0 5% 8% 5%;
     }
     .title{
-        font-size: large;
-        margin: 0 0 3% 0;
+        font-size: 20px;
+        margin-bottom: 3%;
     }
     .item{
+        max-width: 100%;
         display: flex;
         flex-direction: row;
-        padding: 5% 0;
+        padding: 3% 0 4% 0;
         align-items:flex-start;
         text-align: center;
         border-top: 1px solid gainsboro;
@@ -32,13 +35,19 @@
         .itemText{
             display: flex;
             flex-direction: column;
-            margin: 0 0 0 5%;
+            margin-left: 5%;
             align-items: flex-start;
             justify-content: space-evenly;
+            .textDay{
+                text-align: left;
+                line-height: 1.5;
+                font-size: 17px;
+                vertical-align: top;
+            }
             .text{
                 text-align: left;
-                line-height: 2.0;
-                font-size: 75%;
+                line-height: 2.2;
+                font-size: 13.5px;
                 vertical-align: top;
             }
             .textUrl{

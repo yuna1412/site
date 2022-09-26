@@ -1,12 +1,13 @@
+@import "./_variables";
 .title{
     display: flex;
-    padding: 0 20%;
+    padding: $padding;
     @media screen and (max-width: 768px) {
         display: flex;
         padding: 5% 5%;
     }
     .titleText{
-        font-size: 100%;
+        font-size: 21px;
     }
 }
 .allImage{
@@ -64,7 +65,7 @@
         text-decoration-line: none;
         color: black;
         &:hover{
-            border-bottom: none;
+            border-bottom: 1px solid transparent;
         }
     }
 }

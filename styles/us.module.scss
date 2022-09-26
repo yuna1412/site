@@ -1,86 +1,106 @@
+@import "./variables";
 .container{
-    display: flex;
-    flex-direction: row;
-    padding: 0 20% 8% 20%;
-    @media screen and (max-width: 768px) {
-        display: flex;
-        flex-direction: column;
-        padding: 0 5% 8% 5%;
-    }
-    .item{
-        display: flex;
-        flex-direction: row;
-        align-items:flex-start;
-        text-align: center;
-        padding: 7% 0 0 0 ;
-        border-top: 1px solid gainsboro;
+    // display: flex;
+    // flex-direction: row;
+    // padding: $padding;
+    // padding-bottom: 2.5%;
+    .inner{
+        margin: auto;
+        width: 800px;
+        background-color: aquamarine;
         @media screen and (max-width: 768px) {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            text-align: center;
-            padding: 5% 0;
+            padding: 0 5% 8% 5%;
         }
-        .itemText{
+        .item{
             display: flex;
-            flex-direction: column;
-            padding-right: 5%;
-            align-items: flex-start;
-            justify-content: space-evenly;
+            flex-direction: row;
+            align-items:flex-start;
+            text-align: center;
+            padding-top: 62px;
+            border-top: 1px solid gainsboro;
             @media screen and (max-width: 768px) {
-                padding: 0;
-            }
-        }
-        .text{
-            text-align: left;
-            line-height: 2.0;
-            text-decoration:none; 
-            color: black;
-        }
-        .textExplanation{
-            text-align: left;
-            font-size: 75%;
-            line-height: 2.0;
-            @media screen and (max-width: 768px) {
-                font-size: 80%;
-            }
-        }
-        .textUrl{
-            margin-top: 10%;
-            text-decoration-line: none; 
-            color: black;
-            @media screen and (max-width: 768px) {
-                margin-top: 0;
-            }
-            &:hover{
-                -webkit-animation-duration: 0.1s;
-                -webkit-animation-name: flash;
-                animation-duration: 0.1s;
-                animation-name: flash;
-                }
-            @-webkit-keyframes flash {
-                0% {
-                opacity: 1;
-                }
-                100% {
-                opacity: 0;
-                }
-            }
-            @keyframes flash {
-                0% {
-                opacity: 1;
-                }
-                100% {
-                opacity: 0;
-                }
-            }
-        }
-        .img{
-            width:50%;
-            @media screen and (max-width: 768px) {
-                width:60%;
-                margin-top: 3%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 text-align: center;
+                padding: 5% 0;
+            }
+            .itemText{
+                display: flex;
+                flex-direction: column;
+                padding-right: 40px;
+                align-items: flex-start;
+                justify-content: space-evenly;
+                @media screen and (max-width: 768px) {
+                    padding: 0;
+                }
+                .text{
+                    text-align: left;
+                    font-size: 20px;
+                    line-height: 1.5;
+                    text-decoration:none; 
+                    color: black;
+                    }
+                .textExplanation{
+                    text-align: left;
+                    font-size: 14px;
+                    line-height: 2.5;
+                    @media screen and (max-width: 768px) {
+                        font-size: 80%;
+                    }
+                }
+                .Url{
+                    text-decoration-line: none;
+                    color: black;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: left;
+                    text-align: center;
+                    margin-top: 23px;
+                    &:hover{
+                        -webkit-animation-duration: 0.1s;
+                        -webkit-animation-name: flash;
+                        animation-duration: 0.1s;
+                        animation-name: flash;
+                        }
+                    @-webkit-keyframes flash {
+                        0% {
+                        opacity: 1;
+                        }
+                        100% {
+                        opacity: 0;
+                        }
+                    }
+                    @keyframes flash {
+                        0% {
+                        opacity: 1;
+                        }
+                        100% {
+                        opacity: 0;
+                        }
+                    }
+                    .UrlImg{
+                        width: 25px;
+                        height: 20px;
+                        margin-right: 6px;
+                    }
+                    .UrlText{
+                        margin-top: 3px;
+                        @media screen and (max-width: 768px) {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+            .img{
+                width:48%;
+                @media screen and (max-width: 768px) {
+                    width:60%;
+                    margin-top: 3%;
+                    text-align: center;
+                }
             }
         }
     }

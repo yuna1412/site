@@ -6,7 +6,7 @@ export default function Projects() {
     return (
         <>  
             <div className={projectsSheet.title}>
-                <h3>Featured projects</h3>
+                <h3 className={projectsSheet.titleText}>Featured projects</h3>
             </div>
             <ul className={projectsSheet.allImage}>
                 <Project
