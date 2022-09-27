@@ -11,8 +11,8 @@ export default function Header({Open, show}) {
                 </div>
                 <ul className={headerSheet.titleRight}>
                     <li className={headerSheet.group}>
-                        <a href='/' className={`${headerSheet.subtitle} ${headerSheet.select}`}>Ja</a> 
-                        <a href='/' className={`${headerSheet.subtitle} ${headerSheet.select}`}>En</a> 
+                        <a href='/' className={`${headerSheet.switching} ${headerSheet.select}`}>Ja</a> 
+                        <a href='/' className={`${headerSheet.switching} ${headerSheet.select}`}>En</a> 
                     </li>
                     <li className={headerSheet.group}>
                         <a className={`${headerSheet.menu} ${show && headerSheet.move}`} onClick={Open}>

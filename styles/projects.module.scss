@@ -1,7 +1,8 @@
 @import "./_variables";
 .title{
-    display: flex;
-    padding: $padding;
+    margin: $margin;
+    width: $width;
+    margin-top: 100px;
     @media screen and (max-width: 768px) {
         display: flex;
         padding: 5% 5%;
@@ -14,14 +15,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 5% 3%;
+    margin: 45px 45px 40px 45px;
     @media screen and (max-width: 768px) {
         margin: 5% 0;
     }
     .move{
         position: relative;
         overflow: hidden;
-        margin: 0 0.5%;
+        margin: 0 10px;
         @media screen and (max-width: 768px) {
             position: relative;
             overflow: visible;
@@ -38,10 +39,8 @@
             top: 3%;
             left: 4%;
             display: block;
-            width: 100%;
-            height: 100%;
-            padding: 0 4% 3% 0;
-            line-height: 2.0;
+            font-size: 18px;
+            line-height: 1.4;
             color: black;
             opacity: 0;
         }
@@ -55,12 +54,13 @@
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 116px;
     @media screen and (max-width: 768px) {
         padding: 6% 0 12% 0;
     }
     .Url{
-        padding: 1%;
+        font-size: 22px;
+        padding: 10px;
         border-bottom: 1px solid rgb(0, 0, 0);
         text-decoration-line: none;
         color: black;

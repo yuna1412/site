@@ -11,13 +11,10 @@
         height: 12%;
     }
     .titleLeft{
-        display: flex;
-        flex-direction: row;
-        margin-left: 3%;
-        align-items: center;
+        padding-top: 30px;
+        padding-left: 75px;
         .title{
             width:44%;
-            margin: 0 0 3% 5%;
             &:hover{
                 -webkit-animation-duration: 0.1s;
                 -webkit-animation-name: flash;
@@ -53,8 +50,7 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            width: 60%;
-            .subtitle{
+            .switching{
                 text-decoration-line: none;
                 color: black;
                 margin: 0 10px 15px 10px;

@@ -8,10 +8,10 @@
         object-fit: cover;
     }
     .textScroll{
-        margin: 6.2% 2.4%;
+        // margin: 6.2% 2.4%;
         position: absolute;
-        bottom: 37%;
-        right: 1.5%;
+        bottom: 525px;
+        right: 75px;
         writing-mode: vertical-rl;
         .border{
             position: relative;
@@ -20,7 +20,7 @@
                 content: '';
                 position: absolute;
                 left: calc(50% - 0.5px);
-                top: 8zzpx;
+                top: 85px;
                 width: 1px;
                 height: 0px;
                 background-color: black;
@@ -29,9 +29,9 @@
         }
     }
     .text{
-        padding: 0 3% 1.8% 3.6%;
         position: absolute;
-        bottom: 3.5%;
+        bottom: 70px;
+        left: 75px;
         text-align: left;
         line-height: 1.6; 
         .guidance{

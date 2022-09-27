@@ -1,13 +1,8 @@
 @import "./variables";
 .container{
-    // display: flex;
-    // flex-direction: row;
-    // padding: $padding;
-    // padding-bottom: 2.5%;
+    margin: $margin;
+    width: $width;
     .inner{
-        margin: auto;
-        width: 800px;
-        background-color: aquamarine;
         @media screen and (max-width: 768px) {
             display: flex;
             flex-direction: column;
@@ -18,7 +13,8 @@
             flex-direction: row;
             align-items:flex-start;
             text-align: center;
-            padding-top: 62px;
+            padding-top: 66px;
+            padding-bottom: 47px;
             border-top: 1px solid gainsboro;
             @media screen and (max-width: 768px) {
                 display: flex;
@@ -39,14 +35,15 @@
                 .text{
                     text-align: left;
                     font-size: 20px;
-                    line-height: 1.5;
+                    line-height: 1.2;
                     text-decoration:none; 
                     color: black;
                     }
                 .textExplanation{
+                    padding-top: 23px;
                     text-align: left;
                     font-size: 14px;
-                    line-height: 2.5;
+                    line-height: 2.4;
                     @media screen and (max-width: 768px) {
                         font-size: 80%;
                     }
@@ -58,7 +55,7 @@
                     flex-direction: row;
                     justify-content: left;
                     text-align: center;
-                    margin-top: 23px;
+                    margin-top: 28px;
                     &:hover{
                         -webkit-animation-duration: 0.1s;
                         -webkit-animation-name: flash;
@@ -84,10 +81,8 @@
                     .UrlImg{
                         width: 25px;
                         height: 20px;
-                        margin-right: 6px;
                     }
                     .UrlText{
-                        margin-top: 3px;
                         @media screen and (max-width: 768px) {
                             margin-top: 0;
                         }
@@ -95,7 +90,7 @@
                 }
             }
             .img{
-                width:48%;
+                width: 48%;
                 @media screen and (max-width: 768px) {
                     width:60%;
                     margin-top: 3%;
