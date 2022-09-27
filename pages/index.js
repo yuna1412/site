@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import React, {useState, useRef}  from 'react'
-import indexSheet from '../styles/index.module.scss'
 import Header from '../components/Header'
 import Top from '../components/Top'
 import Icons from '../components/Icons'
-import Us from '../components/Us'
+import About from '../components/About'
 import Newses from '../components/Newses'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
+import Nav from '../components/Nav'
 import Modal from '../components/Modal'
 
 export default function index() {
@@ -16,11 +16,9 @@ export default function index() {
   const Open = () => {
       if(show==false){
           setShow(true)
-          console.log(true)
       }
       else if(show==true){
           setShow(false)
-          console.log(false)
       }
       else{
           return null;
@@ -37,11 +35,11 @@ export default function index() {
       <Header Open={Open} show={show}/>
       <Top/>
       <Icons/>
-      <Us/>
+      <About/>
       <Newses/>
       <Projects/>
-      <p className={indexSheet.text}>©broom inc.all rights reserved.</p>
       <Footer/>
+      <Nav/>
     </>
   )
 }

@@ -1,0 +1,59 @@
+.container{
+    position: fixed;
+    bottom: 78px;
+    right: 90px;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    .arrow{
+        margin: 4% 4.5% 0 0;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        color: #333;
+        line-height: 1.5;
+        position: relative;
+        width: 0.15em;
+        height: 2.3em;
+        background: currentColor;
+        &::before {
+            content: '';
+            width: 1.3em;
+            height: 1.3em;
+            border: 0.2em solid currentColor;
+            border-radius: 5%;
+            border-left: 0;
+            border-bottom: 0;
+            transform: rotate(-45deg);
+            transform-origin: top right;
+            position: absolute;
+            top: -0.1em;
+            right: 50%;
+            box-sizing: border-box;
+        }
+        &:hover{
+            -webkit-animation-duration: 0.1s;
+            -webkit-animation-name: flash;
+            animation-duration: 0.1s;
+            animation-name: flash;
+            }
+        @-webkit-keyframes flash {
+            0% {
+            opacity: 1;
+            }
+            100% {
+            opacity: 0;
+            }
+        }
+        @keyframes flash {
+            0% {
+            opacity: 1;
+            }
+            100% {
+            opacity: 0;
+            }
+        }
+    }
+}

@@ -8,10 +8,11 @@
         object-fit: cover;
     }
     .textScroll{
-        // margin: 6.2% 2.4%;
         position: absolute;
-        bottom: 525px;
-        right: 75px;
+        // top: 45%;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 4%;
         writing-mode: vertical-rl;
         .border{
             position: relative;
