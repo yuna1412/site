@@ -9,13 +9,17 @@
     }
     .titleText{
         font-size: 21px;
+        @media screen and (max-width: 1090px) {
+            display: flex;
+            padding: 5% 5%;
+        }
     }
 }
 .allImage{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 45px 45px 40px 45px;
+    margin: 32px 50px 50px 40px;
     @media screen and (max-width: 768px) {
         margin: 5% 0;
     }
@@ -29,7 +33,7 @@
             margin: 0 0.5%;
         }
         .img{
-            width:100%;
+            width:22.5vw;
             @media screen and (max-width: 768px) {
                 width:100%;
             }
@@ -59,7 +63,7 @@
         padding: 6% 0 12% 0;
     }
     .Url{
-        font-size: 22px;
+        font-size: 23px;
         padding: 10px;
         border-bottom: 1px solid rgb(0, 0, 0);
         text-decoration-line: none;

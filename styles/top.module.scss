@@ -9,7 +9,6 @@
     }
     .textScroll{
         position: absolute;
-        // top: 45%;
         top: 50%;
         transform: translateY(-50%);
         right: 4%;
@@ -31,8 +30,8 @@
     }
     .text{
         position: absolute;
-        bottom: 70px;
-        left: 75px;
+        bottom: 3.6vw;
+        left: 4vw;
         text-align: left;
         line-height: 1.6; 
         .guidance{
