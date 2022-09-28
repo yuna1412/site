@@ -3,39 +3,55 @@
     margin: $margin;
     width: $width;
     margin-top: 100px;
+    @media screen and (max-width: 1090px) {
+        // margin: $smallMargin;
+        margin-top: 4%;
+    }
     @media screen and (max-width: 768px) {
         display: flex;
         padding: 5% 5%;
     }
     .titleText{
         font-size: 21px;
-        @media screen and (max-width: 1090px) {
-            display: flex;
-            padding: 5% 5%;
-        }
     }
 }
 .allImage{
+    display: block;
+    overflow-x: hidden;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 32px 50px 50px 40px;
+    @media screen and (max-width: 1350px) {
+        //3枚
+        width: 100%;
+        transform: translateX(-80px);
+        margin: 32px 0 50px 0;
+        background-color: bisque;
+    }
     @media screen and (max-width: 768px) {
-        margin: 5% 0;
+        //２枚
+        width: 100%;
+        transform: translateX(-320px);
+        margin: 32px 0 50px 0;
     }
     .move{
+        display: block;
         position: relative;
-        overflow: hidden;
         margin: 0 10px;
         @media screen and (max-width: 768px) {
             position: relative;
-            overflow: visible;
             margin: 0 0.5%;
         }
         .img{
             width:22.5vw;
+            @media screen and (max-width: 1350px) {
+                //3枚
+                width:30vw;
+            }
             @media screen and (max-width: 768px) {
-                width:100%;
+                //２枚
+                width: 40vw;
             }
         }
         .text{
