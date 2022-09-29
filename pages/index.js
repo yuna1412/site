@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import React, {useState, useRef}  from 'react'
 import Header from '../components/Header'
 import Top from '../components/Top'
@@ -9,6 +10,7 @@ import Projects from '../components/Projects'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
 import Modal from '../components/Modal'
+import Contact from '../components/Contact'
 
 export default function index() {
   const [show, setShow] = useState(false)
@@ -40,6 +42,8 @@ export default function index() {
       <Projects/>
       <Footer/>
       <Nav/>
+      {/* <Link href="contact"></Link> */}
+
     </>
   )
 }
