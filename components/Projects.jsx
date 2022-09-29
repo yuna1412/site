@@ -8,7 +8,7 @@ export default function Projects() {
             <div className={projectsSheet.title}>
                 <h3 className={projectsSheet.titleText}>Featured projects</h3>
             </div>
-            <div >
+            <div className={projectsSheet.scroll}>
                 <ul className={projectsSheet.allImage}>
                     <Project
                         imageUrl={"/image/p_ju-ni_a.jpg"}
