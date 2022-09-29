@@ -1,12 +1,15 @@
 @import "./variables";
 .container{
     margin: $margin;
-    width: $width;
+    width: calc(100% - 200px);
+    max-width: $width;
+    @media screen and (max-width: 768px) {
+        width: calc(100% - 60px);
+    }
     .inner{
         @media screen and (max-width: 768px) {
             display: flex;
             flex-direction: column;
-            padding: 0 5% 8% 5%;
         }
         .item{
             display: flex;
@@ -14,7 +17,7 @@
             align-items:flex-start;
             text-align: center;
             padding-top: 66px;
-            padding-bottom: 47px;
+            padding-bottom: 100px;
             border-top: 1px solid gainsboro;
             @media screen and (max-width: 768px) {
                 display: flex;
@@ -93,7 +96,7 @@
             .img{
                 width: 48%;
                 @media screen and (max-width: 768px) {
-                    width:60%;
+                    width:350px;
                     margin-top: 3%;
                     text-align: center;
                 }

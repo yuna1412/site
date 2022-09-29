@@ -27,12 +27,12 @@ export default function Projects() {
                         text={<>Paper Joint Basket<br/>Own Products<br/>Basket, 2018</>}
                     />
                     <Project
-                        imageUrl={"/image/p_pjb_a.jpg"}
-                        text={<>Paper Joint Basket<br/>Own Products<br/>Basket, 2018</>}
+                        imageUrl={"/image/p_ju-ni_a.jpg"}
+                        text={<>"12 / JU-NI"<br/>Kimura Soap<br/>Haircare brand, 2019-</>}
                     />
                     <Project
-                        imageUrl={"/image/p_pjb_a.jpg"}
-                        text={<>Paper Joint Basket<br/>Own Products<br/>Basket, 2018</>}
+                        imageUrl={"/image/p_h-stool_a.jpg"}
+                        text={<>"H Stool"<br/>Hiramiya<br/>Stool,2019</>}
                     />
                 </ul>
             </div>

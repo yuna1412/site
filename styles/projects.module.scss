@@ -1,15 +1,11 @@
 @import "./_variables";
 .title{
     margin: $margin;
-    width: $width;
+    width: calc(100% - 200px);
+    max-width: $width;
     margin-top: 100px;
-    @media screen and (max-width: 1090px) {
-        // margin: $smallMargin;
-        margin-top: 4%;
-    }
     @media screen and (max-width: 768px) {
-        display: flex;
-        padding: 5% 5%;
+        width: calc(100% - 60px);
     }
     .titleText{
         font-size: 21px;
@@ -21,23 +17,22 @@
     .allImage{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        transform: translateX(-22.5vw);
         margin: 32px 50px 50px 40px;
         @media screen and (max-width: 1350px) {
             width: 100%;
-            transform: translateX(-200px);
+            transform: translateX(-30vw);
             margin: 32px 0 50px 0;
-            background-color: bisque;
         }
         @media screen and (max-width: 768px) {
             width: 100%;
-            transform: translateX(-320px);
+            transform: translateX(-40vw);
             margin: 32px 0 50px 0;
         }
         .move{
             display: block;
             position: relative;
-            margin: 0 10px;
+            margin: 0 8px;
             @media screen and (max-width: 768px) {
                 position: relative;
                 margin: 0 0.5%;
@@ -74,7 +69,7 @@
     text-align: center;
     padding-bottom: 116px;
     @media screen and (max-width: 768px) {
-        padding: 6% 0 12% 0;
+        padding: 0 0 100px 0;
     }
     .Url{
         font-size: 23px;

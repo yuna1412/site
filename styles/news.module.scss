@@ -1,15 +1,17 @@
 @import "./_variables";
 .container{
     margin: $margin;
-    width: $width;
+    width: calc(100% - 200px);
+    max-width: $width;
     @media screen and (max-width: 768px) {
         display: flex;
         flex-direction: column;
-        padding: 0 5% 8% 5%;
+        width: calc(100% - 60px);
     }
     .title{
         font-size: 20px;
         margin-bottom: 30px;
+        
     }
     .item{
         max-width: 100%;
