@@ -1,0 +1,84 @@
+@import "../_variables";
+.title{
+    margin: $margin;
+    width: calc(100% - 200px);
+    max-width: $width;
+    margin-top: 100px;
+    @media screen and (max-width: 768px) {
+        width: calc(100% - 60px);
+    }
+    .titleText{
+        font-size: 21px;
+    }
+}
+.scroll{
+    display:block;
+    overflow-x: hidden;
+    .allImage{
+        display: flex;
+        flex-direction: row;
+        transform: translateX(-22.5vw);
+        margin: 32px 50px 50px 40px;
+        @media screen and (max-width: 1350px) {
+            width: 100%;
+            transform: translateX(-30vw);
+            margin: 32px 0 50px 0;
+        }
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            transform: translateX(-40vw);
+            margin: 32px 0 50px 0;
+        }
+        .move{
+            display: block;
+            position: relative;
+            margin: 0 8px;
+            @media screen and (max-width: 768px) {
+                position: relative;
+                margin: 0 0.5%;
+            }
+            .img{
+                width:22.5vw;
+                @media screen and (max-width: 1350px) {
+                    width:30vw;
+                }
+                @media screen and (max-width: 768px) {
+                    width: 40vw;
+                }
+            }
+            .text{
+                position: absolute;
+                top: 3%;
+                left: 4%;
+                display: block;
+                font-size: 18px;
+                line-height: 1.4;
+                color: black;
+                opacity: 0;
+            }
+            &:hover .text{
+                opacity: 1;
+            }
+        }
+    }
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 116px;
+    @media screen and (max-width: 768px) {
+        padding: 0 0 100px 0;
+    }
+    .Url{
+        font-size: 23px;
+        padding: 10px;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        text-decoration-line: none;
+        color: black;
+        &:hover{
+            border-bottom: 1px solid transparent;
+        }
+    }
+}
