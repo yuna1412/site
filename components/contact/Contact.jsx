@@ -1,7 +1,7 @@
 import React from 'react'
 import contactSheet from '../../styles/contact/contact.module.scss'
 import Explanation from './Explanation';
-import Form from './Form';
+import Forms from './Forms';
 
 export default function Contact() {
     return (
@@ -9,7 +9,7 @@ export default function Contact() {
             <h2 className={contactSheet.title}>Contact</h2>
             <div className={contactSheet.overview}>
                 <Explanation/>
-                <Form/>
+                <Forms/>
             </div>
         </div>
     );

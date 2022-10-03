@@ -41,8 +41,6 @@ export default function index() {
       <Projects/>
       <Footer/>
       <Arrow/>
-      {/* <Link href="contact"></Link> */}
-
     </>
   )
 }
