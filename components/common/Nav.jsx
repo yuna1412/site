@@ -18,7 +18,7 @@ export default function Nav({show}) {
                                 <a href='/' className={navSheet.text}>About</a>
                             </li>
                             <li className={navSheet.item}>
-                                <a href='/' className={navSheet.text}>Contact</a>
+                                <a href='./contact' className={navSheet.text}>Contact</a>
                             </li>
                         </ul>
 

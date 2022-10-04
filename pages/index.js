@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import React, {useState, useRef}  from 'react'
 import Header from '../components/common/Header'
 import Top from '../components/index/Top'
