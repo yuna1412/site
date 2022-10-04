@@ -6,7 +6,7 @@ export default function SelectForm({selectTitle, selectTexts, isShow}) {
         <>
             <div className={formSheet.item}>
                 <div className={formSheet.itemTitle}>{selectTitle}
-                    <span className={formSheet.redCircle}/>
+                    {isShow && <span className={formSheet.redCircle}/>}
                 </div>
                 <select className={formSheet.answerSelect} size="1">
                     <option>{"選択してください"}</option>

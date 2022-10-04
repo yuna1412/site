@@ -37,6 +37,7 @@ export default function Forms() {
                         "SNS" ,
                         "その他"
                     ]}
+                    isShow={true}
                 />
                 <SelectForm
                     selectTitle={"Inquiry Summary"}
@@ -45,10 +46,12 @@ export default function Forms() {
                         "取材・講演",
                         "その他"
                     ]}
+                    isShow={true}
                 />
                 <WriteForm
                     writeTitle={"Inquiry Details"}
                     writeText={"プロジェクトのご依頼・ご相談の場合、コミュニケーションをスムーズにするために次の点についてご教示ください。 (1)プロジェクトの概要 (2)時期と期間 (3)おおよそのご予算 (4)貴社のプロジェクト体制 (5)broom inc.に期待すること"}
+                    isShow={true}
                 />
 
                 <div className={formSheet.consent}>
