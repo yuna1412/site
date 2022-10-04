@@ -3,16 +3,16 @@
     width: calc(100% - 70px);
     max-width: 1080px;
     margin: $margin;
-    margin-top: 155px;
-    z-index: 3;
+    position: relative;
+    z-index: 1;
     @media screen and (max-width: 768px) {
         width: calc(100% - 60px);
         max-width: 700px;
-        margin-top: 108px;
     }
     .title{
         text-align: left;
         font-size: 30px;
+        padding-top: 155px;
         @media screen and (max-width: 768px) {
             font-size: 27px;
         }
