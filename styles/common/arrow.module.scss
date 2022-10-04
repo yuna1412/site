@@ -7,6 +7,10 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    @media screen and (max-width: 768px) {
+        bottom: 5vw;
+        right: 6.5vw;
+    }
     .arrow{
         text-align: center;
         display: inline-block;
