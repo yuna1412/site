@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import { gsap } from "gsap";
-import { ScrollToPlugin } from "gsap/dist/ScrollToPlugin";
 import React, {useState, useRef}  from 'react';
 import Header from '../components/common/Header'
 import Top from '../components/index/Top'
@@ -12,13 +10,9 @@ import Footer from '../components/common/Footer'
 import Arrow from '../components/common/Arrow'
 import Nav from '../components/common/Nav'
 
-// gsapでscrollToを使用するために必須
-gsap.registerPlugin(ScrollToPlugin);
 
 export default function index() {
   const [show, setShow] = useState(false)
-  // const modal = useRef()
-  // const window = useRef()
   const Open = () => {
     if(show==false){
         setShow(true)
@@ -30,15 +24,7 @@ export default function index() {
         return null;
     }
   }
-  const scrollTop = (e) => {
-    // イベントをキャンセル
-    e.preventDefault()
-    // windowはグローバル変数
-    gsap.to(window, {
-      duration: 2,
-      scrollTo: {y: 0},
-    })
-  }
+
   return (
     <>
       <Head>
@@ -53,7 +39,7 @@ export default function index() {
       <Newses/>
       <Projects/>
       <Footer/>
-      <Arrow scrollTop={scrollTop}/>
+      <Arrow/>
     </>
   )
 }

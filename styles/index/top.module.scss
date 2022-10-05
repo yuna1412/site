@@ -16,6 +16,8 @@
         .border{
             position: relative;
             font-size: 13.1px;
+            text-decoration-line:none;
+            color: black;
             &:before{
                 content: '';
                 position: absolute;
